@@ -46,8 +46,11 @@ export const Banner = () => {
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline">Welcome to my Portfolio</span>
-                        <h1>{`Hi I'm Chris Francis `}<span className="wrap">{text}</span></h1>
-                        <p>I'm a self driven Java full stack developer with experience in managing a team and supporting large scale applications looking for new development opportunities to continue growing.</p>
+                        <h1>{`Hi I'm Chris Francis `}<br></br><span className="wrap">{text}</span></h1>
+                        <p>I'm a self driven Java full stack developer with experience in managing a team and supporting large scale applications looking for new development opportunities to continue growing.
+                            I have experience with full-stack development, project management, and database management. I've worked with many technologies and frameworks including Java, SQL, Spring Boot, Git, and React just to name a few.
+                            <br></br>In my free time when I'm not learning new tech I like to build mechanical keyboards, play video games with my friends, and spend time with my family.
+                        </p>
                         <button onClick={() => console.log('connect')}>Let's Connect<ArrowRightCircle size={25}/></button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
